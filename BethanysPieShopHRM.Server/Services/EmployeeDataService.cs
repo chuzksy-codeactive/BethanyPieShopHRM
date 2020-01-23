@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Text.Json;
 using System.Threading.Tasks;
 using BethanysPieShopHRM.Shared;
 
@@ -24,14 +25,16 @@ namespace BethanysPieShopHRM.Server.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Employee>> GetAllEmployees()
+        public async Task<IEnumerable<Employee>> GetAllEmployees()
         {
-            throw new NotImplementedException();
+            return await JsonSerializer.DeserializeAsync<IEnumerable<Employee>>
+                (await _httpClient.GetStreamAsync($"api/employee"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
-        public Task<Employee> GetEmployeeDetails(int employeeId)
+        public async Task<Employee> GetEmployeeDetails(int employeeId)
         {
-            throw new NotImplementedException();
+            return await JsonSerializer.DeserializeAsync<Employee>
+                (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
         public Task UpdateEmployeeI(Employee employee)
