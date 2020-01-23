@@ -1,32 +1,41 @@
-﻿<Properties StartupConfiguration="{ACED0BCB-0A46-4D76-B6C0-A0C6F7985AC6}|Default">
+﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM.Server PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Api/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
-      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetailBase.cs" Line="5" Column="26" />
-      <File FileName="BethanysPieShopHRM.Server/BethanysPieShopHRM.Server.csproj" Line="14" Column="11" />
-      <File FileName="BethanysPieShopHRM.Api/BethanysPieShopHRM.Api.csproj" Line="18" Column="15" />
-      <File FileName="BethanysPieShopHRM.Api/Models/AppDbContext.cs" Line="1" Column="1" />
-      <File FileName="BethanysPieShopHRM.Api/Startup.cs" Line="1" Column="1" />
-      <File FileName="BethanysPieShopHRM.Api/appsettings.json" Line="1" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/Services/IEmployeeDataService.cs" Line="17" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/Services/EmployeeDataService.cs" Line="44" Column="6" />
+      <File FileName="BethanysPieShopHRM.Api/Program.cs" Line="33" Column="60" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetailBase.cs" Line="72" Column="10" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverviewBase.cs" Line="21" Column="79" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetail.razor" Line="1" Column="1" />
+      <File FileName=".gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="BethanysPieShopHRM.Server" expanded="True">
-            <Node name="BethanysPieShopHRM.Api" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="appsettings.json" selected="True" />
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/.gitignore" selected="True" />
             </Node>
+            <Node name="BethanysPieShopHRM.Api" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM.Api PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{3D22D056-B2B8-4FDB-A078-3753F1C72A9F}" ItemName="BethanysPieShopHRM.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{ACED0BCB-0A46-4D76-B6C0-A0C6F7985AC6}" ItemName="BethanysPieShopHRM.Server" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>
