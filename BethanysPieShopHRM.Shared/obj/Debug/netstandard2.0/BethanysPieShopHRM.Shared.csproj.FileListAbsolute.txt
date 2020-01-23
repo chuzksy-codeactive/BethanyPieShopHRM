@@ -1,0 +1,16 @@
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/bin/Debug/netstandard2.0/BethanysPieShopHRM.Shared.deps.json
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/bin/Debug/netstandard2.0/BethanysPieShopHRM.Shared.dll
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/bin/Debug/netstandard2.0/BethanysPieShopHRM.Shared.pdb
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.csprojAssemblyReference.cache
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.AssemblyInfoInputs.cache
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.AssemblyInfo.cs
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.dll
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.pdb
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/bin/Debug/netstandard2.0/BethanysPieShopHRM.Shared.deps.json
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/bin/Debug/netstandard2.0/BethanysPieShopHRM.Shared.dll
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/bin/Debug/netstandard2.0/BethanysPieShopHRM.Shared.pdb
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.AssemblyInfoInputs.cache
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.AssemblyInfo.cs
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.dll
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.pdb
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Shared/obj/Debug/netstandard2.0/BethanysPieShopHRM.Shared.csprojAssemblyReference.cache
