@@ -1,23 +1,32 @@
-﻿<Properties StartupConfiguration="{ACED0BCB-0A46-4D76-B6C0-A0C6F7985AC6}|Default">
+﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM.Server PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Services/IEmployeeDataService.cs">
     <Files>
-      <File FileName="BethanysPieShopHRM.Server/Services/IEmployeeDataService.cs" Line="17" Column="1" />
-      <File FileName="BethanysPieShopHRM.Server/Services/EmployeeDataService.cs" Line="44" Column="6" />
-      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetailBase.cs" Line="19" Column="65" />
-      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverviewBase.cs" Line="14" Column="9" />
-      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetail.razor" Line="1" Column="1" />
-      <File FileName="BethanysPieShopHRM.Server/Startup.cs" Line="32" Column="56" />
+      <File FileName="BethanysPieShopHRM.Server/Startup.cs" Line="40" Column="83" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeEdit.razor" Line="138" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeEditBase.cs" Line="88" Column="57" />
+      <File FileName="BethanysPieShopHRM.Server/Services/ICountryDataService.cs" Line="11" Column="53" />
+      <File FileName="BethanysPieShopHRM.Server/Services/CountryDataService.cs" Line="15" Column="10" />
+      <File FileName="BethanysPieShopHRM.Server/Services/IJobCategoryDataService.cs" Line="11" Column="65" />
+      <File FileName="BethanysPieShopHRM.Server/Services/JobCategoryDataService.cs" Line="28" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverview.razor" Line="35" Column="56" />
+      <File FileName="BethanysPieShopHRM.Server/Services/EmployeeDataService.cs" Line="50" Column="41" />
+      <File FileName="BethanysPieShopHRM.Server/Shared/NavMenu.razor" Line="21" Column="85" />
+      <File FileName="BethanysPieShopHRM.Server/Services/IEmployeeDataService.cs" Line="13" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="BethanysPieShopHRM.Server" expanded="True" selected="True">
-            <Node name="BethanysPieShopHRM.Api" expanded="True" />
+          <Node name="BethanysPieShopHRM.Server" expanded="True">
             <Node name="BethanysPieShopHRM.Server" expanded="True">
-              <Node name="Services" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="IEmployeeDataService.cs" selected="True" />
+              </Node>
+              <Node name="Shared" expanded="True" />
             </Node>
+            <Node name="BethanysPieShopHRM.Shared" expanded="True" />
           </Node>
         </State>
       </Pad>

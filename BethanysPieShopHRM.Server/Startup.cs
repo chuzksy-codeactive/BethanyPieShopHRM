@@ -26,12 +26,22 @@ namespace BethanysPieShopHRM.Server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddRazorPages();
             services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(
                 client =>
                 {
                     client.BaseAddress = new Uri("https://localhost:44340/");
                 });
-            services.AddRazorPages();
+            services.AddHttpClient<ICountryDataService, CountryDataService>(
+                client =>
+                {
+                    client.BaseAddress = new Uri("https://localhost:44340/");
+                });
+            services.AddHttpClient<IJobCategoryDataService, JobCategoryDataService>(
+                client =>
+                {
+                    client.BaseAddress = new Uri("https://localhost:44340/");
+                });
             services.AddServerSideBlazor().AddCircuitOptions(options => { options.DetailedErrors = true; });
         }
 
