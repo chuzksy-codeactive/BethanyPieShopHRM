@@ -38,3 +38,4 @@
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Api/obj/Debug/netcoreapp3.0/BethanysPieShopHRM.Api.csproj.CopyComplete
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Api/obj/Debug/netcoreapp3.0/BethanysPieShopHRM.Api.dll
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Api/obj/Debug/netcoreapp3.0/BethanysPieShopHRM.Api.pdb
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Api/bin/Debug/netcoreapp3.0/System.ComponentModel.Annotations.dll
