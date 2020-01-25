@@ -49,3 +49,6 @@
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/Razor/Pages/EmployeeEdit.razor.g.cs
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/AddEmployeeDialog.razor.g.cs
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/Razor/Components/AddEmployeeDialog.razor.g.cs
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/bin/Debug/netcoreapp3.1/BethanysPieShopHRM.Server.StaticWebAssets.xml
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/bin/Debug/netcoreapp3.1/BethanysPieShopHRM.ComponentsLibrary.dll
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/bin/Debug/netcoreapp3.1/BethanysPieShopHRM.ComponentsLibrary.pdb

@@ -1,23 +1,25 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM.Server PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Components/AddEmployeeDialogBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Pages/EmployeeDetailBase.cs">
     <Files>
       <File FileName="BethanysPieShopHRM.Server/Components/AddEmployeeDialog.razor" Line="16" Column="82" />
-      <File FileName="BethanysPieShopHRM.Server/Components/AddEmployeeDialogBase.cs" Line="36" Column="126" />
+      <File FileName="BethanysPieShopHRM.Server/Components/AddEmployeeDialogBase.cs" Line="36" Column="149" />
       <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverview.razor" Line="46" Column="66" />
       <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverviewBase.cs" Line="35" Column="31" />
+      <File FileName="BethanysPieShopHRM.Server/_Imports.razor" Line="13" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/_Host.cshtml" Line="39" Column="89" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetail.razor" Line="115" Column="19" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeDetailBase.cs" Line="19" Column="75" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="BethanysPieShopHRM.Server" expanded="True">
-            <Node name="Solution Items" expanded="True" />
             <Node name="BethanysPieShopHRM.Server" expanded="True">
-              <Node name="Components" expanded="True">
-                <Node name="AddEmployeeDialogBase.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="EmployeeDetailBase.cs" selected="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
             </Node>
           </Node>
         </State>

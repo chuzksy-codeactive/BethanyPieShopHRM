@@ -83,6 +83,20 @@ using BethanysPieShopHRM.Server.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/_Imports.razor"
+using BethanysPieShopHRM.ComponentsLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/_Imports.razor"
+using BethanysPieShopHRM.ComponentsLibrary.Map;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
