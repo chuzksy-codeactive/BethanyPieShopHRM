@@ -47,3 +47,5 @@
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/BethanysPieShopHRM.Server.pdb
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EmployeeEdit.razor.g.cs
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/Razor/Pages/EmployeeEdit.razor.g.cs
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/AddEmployeeDialog.razor.g.cs
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/Razor/Components/AddEmployeeDialog.razor.g.cs

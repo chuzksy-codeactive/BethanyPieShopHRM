@@ -76,6 +76,13 @@ using BethanysPieShopHRM.Server.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/_Imports.razor"
+using BethanysPieShopHRM.Server.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

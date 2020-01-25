@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM.Server PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Pages/EmployeeEdit.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Components/AddEmployeeDialogBase.cs">
     <Files>
-      <File FileName="BethanysPieShopHRM.Shared/Employee.cs" Line="34" Column="86" />
-      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeEdit.razor" Line="14" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/Components/AddEmployeeDialog.razor" Line="16" Column="82" />
+      <File FileName="BethanysPieShopHRM.Server/Components/AddEmployeeDialogBase.cs" Line="36" Column="126" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverview.razor" Line="46" Column="66" />
+      <File FileName="BethanysPieShopHRM.Server/Pages/EmployeeOverviewBase.cs" Line="35" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,13 +14,11 @@
           <Node name="BethanysPieShopHRM.Server" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="BethanysPieShopHRM.Server" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="EmployeeEdit.razor" selected="True" />
+              <Node name="Components" expanded="True">
+                <Node name="AddEmployeeDialogBase.cs" selected="True" />
               </Node>
-              <Node name="Services" expanded="True" />
-              <Node name="Shared" expanded="True" />
+              <Node name="Pages" expanded="True" />
             </Node>
-            <Node name="BethanysPieShopHRM.Shared" expanded="True" />
           </Node>
         </State>
       </Pad>

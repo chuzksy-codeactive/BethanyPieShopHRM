@@ -10,33 +10,37 @@
 else
 {
     <table class="table">
-      <thead>
-        <tr>
-          <th></th>
-          <th>Employee ID</th>
-          <th>First name</th>
-          <th>Last name</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        @foreach (var employee in Employees)
-        {
+        <thead>
             <tr>
-                <td><img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg")" class="rounded-circle"/></td>
-                <td>@employee.EmployeeId</td>
-                <td>@employee.FirstName</td>
-                <td>@employee.LastName</td>
-                <td>
-                    <a href="@($"employeedetail/{employee.EmployeeId}")">
-                        <i class="fa fa-info-circle" aria-hidden="true"></i>
-                    </a>
-                    <a href="@($"employeeedit/{employee.EmployeeId}")">
-                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    </a>
-                </td>
+                <th></th>
+                <th>Employee ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th></th>
             </tr>
-        }
-      </tbody>
+        </thead>
+        <tbody>
+            @foreach (var employee in Employees)
+            {
+                <tr>
+                    <td><img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg")" class="rounded-circle" /></td>
+                    <td>@employee.EmployeeId</td>
+                    <td>@employee.FirstName</td>
+                    <td>@employee.LastName</td>
+                    <td>
+                        <a href="@($"employeedetail/{employee.EmployeeId}")">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        </a>
+                        <a href="@($"employeeedit/{employee.EmployeeId}")">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
     </table>
 }
+
+<button @onclick="@QuickAddEmployee" class="btn btn-dark table-btn quick-add-btn">&nbsp;&nbsp;+&nbsp;&nbsp;</button>
+
+<AddEmployeeDialog @ref="AddEmployeeDialog" CloseEventCallback="@AddEmployeeDialog_OnDialogClose"></AddEmployeeDialog>

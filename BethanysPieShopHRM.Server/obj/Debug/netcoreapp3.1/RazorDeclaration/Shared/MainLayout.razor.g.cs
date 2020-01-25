@@ -76,6 +76,13 @@ using BethanysPieShopHRM.Server.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/_Imports.razor"
+using BethanysPieShopHRM.Server.Components;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
