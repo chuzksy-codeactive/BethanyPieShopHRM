@@ -128,10 +128,15 @@
                 <InputTextArea id="comment" class="form-control col-sm-8" @bind-Value="@Employee.Comment" placeholder="Enter comment"></InputTextArea>
             </div>
             <button type="submit" class="btn btn-primary edit-btn">Save employee</button>
+            @if(Employee.EmployeeId > 0)
+            {
+                <a class="btn btn-danger" @onclick="@DeleteEmployee">Delete</a>
+            }
         </EditForm>
     }
     else
     {
         <div class="alert @StatusClass">@Message</div>
+        <a class="btn btn-outline-primary" @onclick="@NavigateToOverView">Back to overview</a>
     }
 </section>
