@@ -52,3 +52,5 @@
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/bin/Debug/netcoreapp3.1/BethanysPieShopHRM.Server.StaticWebAssets.xml
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/bin/Debug/netcoreapp3.1/BethanysPieShopHRM.ComponentsLibrary.dll
 /Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/bin/Debug/netcoreapp3.1/BethanysPieShopHRM.ComponentsLibrary.pdb
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/Razor/Pages/Login.cshtml.g.cs
+/Users/onuchukwuchika/Projects/Blazor/BethanysPieShopHRM.Server/BethanysPieShopHRM.Server/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
