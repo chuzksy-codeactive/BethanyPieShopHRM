@@ -5,16 +5,19 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using BethanysPieShopHRM.Shared;
+using Microsoft.AspNetCore.Http;
 
 namespace BethanysPieShopHRM.Server.Services
 {
     public class EmployeeDataService : IEmployeeDataService
     {
         private readonly HttpClient _httpClient;
-        public EmployeeDataService(HttpClient httpClient)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public EmployeeDataService(HttpClient httpClient, IHttpContextAccessor httpContextAccessor)
         {
-            _httpClient = httpClient;
-        }
+            _httpClient = httpClient ?? throw new ArgumentException(nameof(httpClient));
+            _httpContextAccessor = httpContextAccessor ?? throw new ArgumentException(nameof(httpContextAccessor));
+        }   
 
         public async Task<Employee> AddEmployee(Employee employee)
         {
