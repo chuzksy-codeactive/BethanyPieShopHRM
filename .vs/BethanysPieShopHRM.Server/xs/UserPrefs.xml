@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM.Server PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/Shared/NavMenu.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM.Server/App.razor">
     <Files>
       <File FileName="BethanysPieShopHRM.Server/Pages/Login.cshtml" Line="6" Column="1" />
       <File FileName="BethanysPieShopHRM.Server/Pages/Login.cshtml.cs" Line="25" Column="50" />
       <File FileName="BethanysPieShopHRM.Server/Pages/Logout.cshtml" Line="8" Column="1" />
       <File FileName="BethanysPieShopHRM.Server/Pages/Logout.cshtml.cs" Line="17" Column="26" />
-      <File FileName="BethanysPieShopHRM.Server/Shared/NavMenu.razor" Line="29" Column="77" />
+      <File FileName="BethanysPieShopHRM.Server/Shared/NavMenu.razor" Line="30" Column="28" />
       <File FileName="BethanysPieShopHRM.Server/Startup.cs" Line="48" Column="40" />
       <File FileName="BethanysPieShopHRM.Server/Services/EmployeeDataService.cs" Line="43" Column="1" />
+      <File FileName="BethanysPieShopHRM.Server/App.razor" Line="1" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +19,8 @@
             <Node name="BethanysPieShopHRM.Server" expanded="True">
               <Node name="Pages" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="Shared" expanded="True">
-                <Node name="NavMenu.razor" selected="True" />
-              </Node>
+              <Node name="Shared" expanded="True" />
+              <Node name="App.razor" selected="True" />
             </Node>
           </Node>
         </State>
